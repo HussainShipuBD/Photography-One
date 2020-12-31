@@ -1,0 +1,46 @@
+._1video {
+    padding: 91px 0 52px;
+}
+._1video_card {
+    border: 1px solid;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 30px;
+}
+._1video_card_1st {
+	height: 550px;
+}
+._1video_card_img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 100%;
+    width: auto;
+    max-width: 126%;
+    min-width: 100%;
+}
+._1video_card_icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    font-size: 59px;
+    color: #9e210a;
+    transform: scale(.8) translate(-50%, -50%);
+    opacity: 0;
+    transition: .3s all ease;
+    transform-origin: center center;
+}
+._1video_card_icon i{}
+._1video_card_name {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-size: 21px;
+    color: #000;
+}
+._1video_card:hover ._1video_card_icon {
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+}

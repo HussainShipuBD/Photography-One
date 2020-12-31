@@ -1,0 +1,111 @@
+._1col3{}
+._1col3_main {
+}
+/*Card Two*/
+._2card:before {
+    height: 20px;
+    width: 100%;
+    bottom: -27px;
+    left: 0;
+    content: '';
+    background: #141414;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+._2card ._dis_block{
+    height: 100%;
+}
+._2card {
+    margin: 0 auto;
+    height: 310px;
+    overflow: hidden;
+    border: 1px solid;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 30px;
+}
+._2card_main {
+    height: 100%;
+}
+._2card_img {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    opacity: .7;
+    transition: opacity 0.3s ease-in-out;
+}
+._2card_content {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 10px 25px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    bottom: 54px;
+}
+._2card_content_title span{
+
+}
+._2card_content_title:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #9e210a;
+    top: 23px;
+    z-index: -1;
+    transition: .3s all ease;
+    left: 0;
+    transition-delay: 0s;
+}
+._2card_content_title:before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #393939;
+    top: 24px;
+    z-index: -1;
+    left: 0;
+    transition: .3s all ease;
+    transition-delay: 0s;
+}
+._2card_content_title {
+    color: #fff;
+    font-size: 19px;
+    margin: 0 0 4px;
+    font-family: small;
+}
+._2card_content_text {
+    font-size: 11px;
+    opacity: 0;
+    transition: .3s all ease;
+}
+._2card:hover:before {
+    bottom: 0px;
+}
+._2card:hover ._2card_content_title:after {
+    width: 13px;
+    transition-delay: .3s;
+}
+._2card:hover ._2card_content_title:before {
+     width: 100%; 
+     transition-delay: .3s;
+}
+._2card:hover ._2card_content_text {
+    opacity: 1;
+}
+._2card:hover ._2card_img{
+    opacity: 1;
+}
+._2card:hover ._2card_content {
+    bottom: 32px;
+}
+/*Card Two*/

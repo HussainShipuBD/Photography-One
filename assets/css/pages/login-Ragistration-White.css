@@ -1,0 +1,188 @@
+/*Contact One*/
+._1login{}
+._1login_form {
+    max-width: 354px;
+    margin: 48px auto 119px;
+}
+._1int {
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+._1ragi_form {
+    max-width: 554px;
+    margin: 26px auto 31px;
+}
+._1login_title {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+._1login_info_main {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+._1login_info_icon {
+    flex: 0 0 33px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+._1login_info_text {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    background: #fcf2ed;
+    padding: 0 15px 0;
+}
+._1login_main_all ._1title {
+    margin: 5px 0 19px;
+}
+._1login_info_main:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    background: #eee;
+    left: 50%;
+    width: 909px;
+    transform: translateX(-50%);
+    top: 12px;
+    z-index: -1;
+}
+._1login_info_main:before {
+    position: absolute;
+    content: '';
+    height: 104px;
+    background: #eee;
+    left: 50%;
+    width: 1px;
+    transform: translateX(-50%);
+    top: 29px;
+}
+._1login_main_all:before {
+    position: absolute;
+    content: '';
+    height: 167%;
+    width: 100%;
+    background: #fff;
+    left: 0px;
+    top: 0px;
+    opacity: .8;
+    /* background: #000000cc; */
+}
+._1login_main_all {
+    height: 100vh;
+    padding: 133px 0 0;
+    overflow: hidden;
+    background-image: url(../../img/portrait12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+._1login_forget {
+    text-align: right;
+    margin-bottom: 15px;
+}
+._1login_forget a{
+    font-size: 13px;
+}
+._1ragi_radio{
+    text-align: center;
+}
+._1ragi_radio li{
+    display: inline-block;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+    line-height: 16px;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+[type="radio"]:checked + label:before, [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #4e4d4d;
+    border-radius: 100%;
+    background: #eee;
+}
+[type="radio"]:checked + label:after, [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #9e210a;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+._1check_box_input[type=checkbox] + ._1check_box_label {
+    display: block;
+    cursor: pointer;
+    /* padding: 0.2em; */
+    font-size: 14px;
+    color: #666;
+}
+._1check_box_input[type=checkbox] {
+  display: none;
+}
+._1check_box_input[type=checkbox] + ._1check_box_label:before {
+    content: "";
+    border: 1px solid #6d6b6b;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 9px;
+    vertical-align: middle;
+    transition: .2s;
+    border-radius: 100%;
+    background: #eee;
+}
+._1check_box_input[type=checkbox] + ._1check_box_label:active:before {
+}
+
+._1check_box_input[type=checkbox]:checked + ._1check_box_label:before {
+  background-color: #9e210a;
+  border-color: #9e210a;
+  color: #fff;
+}
+
+._1check_box_input[type=checkbox]:disabled + ._1check_box_label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+._1check_box_input[type=checkbox]:checked:disabled + ._1check_box_label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+/*Contact One*/

@@ -1,0 +1,76 @@
+._1singlePage_pic:before {
+    position: absolute;
+    content: '';
+    width: 49%;
+    height: 34%;
+    border: 5px solid #ececee;
+    top: -4px;
+    left: -4px;
+    z-index: -1;
+    border-radius: 3px;
+}
+._1singlePage_pic {
+    position: relative;
+    z-index: 1;
+    border: 1px solid #ececee;
+}
+._1tarval {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 39px;
+    z-index: 1;
+    text-align: center;
+    background: #efefefb5;
+    padding: 22px 0 15px;
+}
+._1singlePage_status_all{
+	position: relative;
+}
+._1singlePage_title {
+    font-weight: bold;
+}
+._1singlePage_time {
+    color: #777;
+    font-size: 14px;
+    margin: 12px 0 0;
+}
+._1singlePage_status_main{}
+._1singlePage_status_main ._text {
+    margin-top: 25px;
+}
+._1singlePage_reviews ._1category_main_lists {
+    margin: 0;
+    justify-content: space-between;
+}
+._1singlePage_reviews ._1category_main_lists li {
+    flex: 0 0 auto;
+}
+._1singlePage_reviews {
+    width: 513px;
+    margin: 38px 0 0;
+}
+._1singlePage_img2 {
+    border: 1px solid;
+}
+._1singlePage_pic2 {
+    width: 322px;
+    margin: 0px 0 45px 45px;
+    float: right;
+}
+._1singlePage_left {
+    display: inline;
+}
+._1singlePage_latest {
+    padding: 100px 0px 100px;
+}
+._1singlePage_latest .blog_button{
+	margin-top: 35px;
+}
+._1singlePage_latest ._1title {
+    margin-bottom: 35px;
+}
+._1related {
+    padding-bottom: 59px;
+}

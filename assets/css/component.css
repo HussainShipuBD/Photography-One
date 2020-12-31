@@ -1,0 +1,392 @@
+._1conponent ._1card,
+._1conponent ._2card,
+._1conponent ._3card, 
+._1conponent ._4card {
+    width: 277px;
+    margin-bottom: 30px;
+}
+
+/*Card One*/
+._1card:before {
+    height: 91%;
+    width: 120%;
+    top: 0;
+    left: -12px;
+    content: '';
+    background: #00000085;
+    position: absolute;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: rotate(121deg) translateY(-50%);
+    transform: rotate(121deg) translateY(-50%);
+    z-index: 1;
+}
+._1card {
+    margin: 0 auto;
+    height: 264px;
+    overflow: hidden;
+    border: 1px solid;
+    position: relative;
+    cursor: pointer;
+}
+._1card_main{
+    height: 100%;
+}
+._1card_img {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    opacity: .7;
+    transition: opacity 0.4s ease-in-out;
+}
+._1card_content {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    background: #141414;
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-50%, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(-50%, -50%);
+    padding: 12px 5px;
+    margin: 0;
+    top: 46%;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 210px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    z-index: 2;
+}
+._1card_content_title {
+    color: #fff;
+    font-size: 14px;
+}
+._1card_content_date {
+    font-size: 10px;
+}
+._1card:hover:before{
+    -webkit-transform: rotate(110deg) translateY(-150%);
+    transform: rotate(110deg) translateY(-150%);
+}
+._1card:hover ._1card_img{
+    opacity: 1;
+}
+._1card:hover ._1card_content{
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-200%, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(-200%, -50%);
+}
+/*Card One*/
+
+/*Card Two*/
+._2card:before {
+    height: 20px;
+    width: 100%;
+    bottom: -27px;
+    left: 0;
+    content: '';
+    background: #141414;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+._2card {
+    margin: 0 auto;
+    height: 264px;
+    overflow: hidden;
+    border: 1px solid;
+    cursor: pointer;
+    position: relative;
+}
+._2card_main {
+    height: 100%;
+}
+._2card_img {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    opacity: .7;
+    transition: opacity 0.3s ease-in-out;
+}
+._2card_content {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    bottom: 44px;
+}
+._2card_content_title span{
+
+}
+._2card_content_title:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #9e210a;
+    top: 23px;
+    z-index: -1;
+    transition: .3s all ease;
+    left: 0;
+    transition-delay: 0s;
+}
+._2card_content_title:before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #393939;
+    top: 24px;
+    z-index: -1;
+    left: 0;
+    transition: .3s all ease;
+    transition-delay: 0s;
+}
+._2card_content_title {
+    color: #fff;
+    font-size: 19px;
+    margin: 0 0 4px;
+    font-family: small;
+}
+._2card_content_text {
+    font-size: 10px;
+    opacity: 0;
+    transition: .3s all ease;
+}
+._2card:hover:before {
+    bottom: 0px;
+}
+._2card:hover ._2card_content_title:after {
+    width: 13px;
+    transition-delay: .3s;
+}
+._2card:hover ._2card_content_title:before {
+     width: 100%; 
+     transition-delay: .3s;
+}
+._2card:hover ._2card_content_text {
+    opacity: 1;
+}
+._2card:hover ._2card_img{
+    opacity: 1;
+}
+._2card:hover ._2card_content {
+    bottom: 22px;
+}
+/*Card Two*/
+
+/*Card Threee*/
+._3card {
+    margin: 0 auto;
+    height: 264px;
+    overflow: hidden;
+    border: 1px solid;
+    position: relative;
+    cursor: pointer;
+}
+._3card_main {
+    height: 100%;
+}
+._3card_img {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+._3card_content:before, ._3card_content:after {
+    position: absolute;
+    content: '';
+    top: 50px;
+    right: 30px;
+    bottom: 50px;
+    left: 30px;
+    border-color: #393939;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    top: 50%;
+    left: 50%;
+    transition: transform 0.3s ease;
+}
+._3card_content:before {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 113%;
+    height: 95%;
+    -webkit-transform: translate(-50%, -50%) scale(0,1);
+    transform: translate(-50%, -50%) scale(0,1);
+}
+._3card_content:after {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    height: 113%;
+    width: 95%;
+    -webkit-transform: translate(-50%, -50%) scale(1,0);
+    transform: translate(-50%, -50%) scale(1,0);
+}
+._3card_content {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    -webkit-transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    padding: 12px 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 78%;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    top: 50%;
+    height: 71%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+._3card_content_title strong{
+
+}
+._3card_content_title {
+    color: #fff;
+    font-size: 17px;
+    margin: 0 0 4px;
+    position: relative;
+    z-index: 1;
+    top: -17px;
+    font-family: small;
+    transition: .3s all ease;
+}
+._3card_content_text {
+    font-size: 10px;
+    transition: .3s all ease;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    opacity: 0;
+    bottom: -9px;
+}
+._3card:hover ._3card_content_text {
+    opacity: 1;
+    bottom: 0px;
+}
+._3card:hover ._3card_content_title {
+    top:0px;
+}
+._3card:hover ._3card_content:after {
+    -webkit-transform: translate(-50%, -50%) scale(1,1);
+    transform: translate(-50%, -50%) scale(1,1);
+    transition: transform 0.3s ease;
+}
+._3card:hover ._3card_content:before {
+    -webkit-transform: translate(-50%, -50%) scale(1,1);
+    transform: translate(-50%, -50%) scale(1,1);
+    transition: transform 0.3s ease;
+}
+._3card:hover ._3card_content {
+    background: #1414145c;
+}
+._3card:hover ._3card_img{
+    transform: scale(1.2,1.2);
+}
+._3card:hover{}
+/*Card Three*/
+
+
+/*Card Four*/
+._4card {
+    margin: 0 auto;
+    height: 264px;
+    overflow: hidden;
+    border: 1px solid;
+    position: relative;
+    cursor: pointer;
+}
+._4card_main {
+    height: 100%;
+    position: relative;
+}
+._4card_img {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+._4card_content {
+    position: absolute;
+    padding: 12px 10px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    text-align: center;
+    bottom: 0;
+}
+._4card_content_title strong{
+
+}
+._4card_content_title {
+    color: #fff;
+    font-size: 17px;
+    margin: 0 0 4px;
+    position: relative;
+    z-index: 1;
+    top: 17px;
+    font-family: small;
+    transition: .3s all ease;
+}
+._4card_content_text {
+    font-size: 10px;
+    transition: .3s all ease;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    opacity: 0;
+    bottom: -9px;
+}
+._4card_main::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+._4card:hover ._4card_main:before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+._4card:hover ._4card_content_title {
+    top: 0px;
+}
+._4card:hover ._4card_content_text {
+    opacity: 1;
+    bottom: 0px;
+}
+._4card:hover ._4card_img{
+    transform: scale(1.2, 1.2);
+}
+/*Card Four*/

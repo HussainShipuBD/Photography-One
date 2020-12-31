@@ -1,0 +1,67 @@
+._2contact{}
+._2contact_main {
+    display: flex;
+    padding-top: 118px;
+    align-items: center;
+    justify-content: center;
+    padding: 117px 0 63px;
+}
+._2contact_pic {
+    border: 1px solid;
+    margin-right: -76px;
+    width: 400px;
+    z-index: 1;
+}
+._2contact_img{}
+._2contact_content_all {
+    padding: 16px 43px 37px 103px;
+    width: 511px;
+    background: #f5f5f5;
+    border: 1px solid;
+}
+._2contact_content{}
+._2contact_content ._1title {
+    margin: 6px 0 37px -80px;
+    font-size: 30px;
+}
+._2contact_details {
+    margin: 0 0 23px;
+}
+._2contact_details_title {
+    font-size: 13px;
+    font-family: small;
+    color: #000;
+    margin: 0 0 7px;
+}
+._2contact_details_text {
+    font-weight: bold;
+    font-size: 13px;
+    color: #524f4f;
+}
+._2contact_social{}
+._2contact_social_all {}
+._1social_icons{}
+._1social_icons li {
+    display: inline-block;
+    margin: 6px 0 0;
+}
+._1social_icons li a:hover {
+    color: #fff;
+    background: #9e210a;
+}
+._1social_icons li a {
+    height: 32px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    transition: .3s all ease;
+    color: #9e210a;
+    background: #fff;
+}
+._2contact_form{}
+._1int {
+    border-bottom: 1px solid #eee;
+    color: #333;
+}

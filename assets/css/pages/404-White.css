@@ -1,0 +1,24 @@
+._404 {
+    font-size: 43px;
+    font-weight: bold;
+    color: #252525;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+._404_span {
+    font-size: 21px;
+    font-family: small;
+    letter-spacing: 18px;
+    color: #716e6e;
+}
+._404_all {
+    height: 455px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+._404_main {
+    margin: 0 auto;
+}

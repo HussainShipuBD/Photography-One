@@ -1,0 +1,281 @@
+._1service{}
+._1service_price {
+    padding: 66px 0 57px;
+}
+._1service_subtitle {
+    text-align: center;
+    font-size: 24px;
+    font-family: small;
+    letter-spacing: 9px;
+    line-height: 24px;
+}
+._1service_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0 0 35px;
+    color: #333;
+}
+._1service_price_mian{}
+
+/*Price Card*/
+._1price_card:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    border: 1px solid #eee;
+    left: 0;
+    right: 0;
+    transition: .3s all ease;
+    z-index: -1;
+}
+._1price_card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    cursor: pointer;
+    min-height: 160px;
+    margin-bottom: 30px;
+}
+._1price_card_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 45px;
+    position: relative;
+    background: #ffffff;
+    color: #9e210a;
+    transition: .3s all ease;
+    width: 45px;
+    overflow: hidden;
+    left: 0px;
+    border: 1px solid #eee;
+}
+._1price_card_title_text {
+    font-weight: bold;
+    font-size: 14px;
+    transform: rotate(-90deg);
+}
+._1price_card_content {
+    flex: 1 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2px 23px 2px;
+}
+._1price_card_pic {
+    position: relative;
+    margin-right: 50px;
+    width: 166px;
+    text-align: center;
+}
+._1price_card_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+._1price_card_price {
+    padding-left: 3px;
+    padding-right: 56px;
+    flex: 0 0 auto;
+    width: 166px;
+    text-align: center;
+}
+._1price_card_price_text {
+    font-size: 44px;
+    font-weight: bold;
+    color: #9e210a;
+    position: relative;
+    line-height: 42px;
+    display: inline-block;
+}
+._1price_card_price_text span {
+    font-size: 19px;
+    position: absolute;
+    top: -7px;
+    left: -19px;
+}
+._1price_card_list {
+    flex: 1 1;
+    display: flex;
+    justify-content: space-between;
+}
+._1price_card_list_main {
+    flex: 1 1;
+    padding: 0 15px 0;
+}
+._1price_card_list_text {
+    font-size: 14px;
+    margin: 10px 0;
+    display: flex;
+    line-height: 18px;
+}
+._1price_card_list_text i {
+    color: #2d2d2d;
+    font-size: 13px;
+    width: 18px;
+    transition: .3s color ease;
+    padding: 4px 0 0;
+}
+._1price_card_button {
+    display: flex;
+    align-items: center;
+    padding: 0 36px 0px 36px;
+    position: relative;
+    right: 0;
+    transition: .3s all ease;
+}
+._1price_card ._1btnB {
+    min-width: 151px;
+    background: transparent;
+    color: #9e210a;
+    border: 1px solid #9e210a;
+}
+._2price_card_active  ._1btnB {
+    color: #fff;
+    background: #9e210a;
+}
+._2price_card_active ._1price_card_title {
+    background: #9e210a;
+    color: #fff;
+    left: -38px;
+    border: 1px solid #9e210a !important;
+}
+._2price_card_active:before {
+    left: -38px;
+    right: -38px;
+}
+._2price_card_active ._1price_card_button {
+    right: -38px;
+}
+._2price_card_active ._1price_card_list_text i {
+    color: #9e210a;
+}
+/*Price Card*/
+
+/*Header One*/
+._1header:before {
+    position: absolute;
+    content: '';
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: .7;
+}
+._1header {
+    position: relative;
+    height: 100vh;
+    background-image: url(../../img/portrait12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 29px;
+}
+._1header_subtitle {
+    font-size: 13px;
+    font-weight: bold;
+}
+._1header_title {
+    font-size: 35px;
+    font-family: small;
+    color: #333;
+    line-height: 32px;
+    margin: 4px 0 0;
+}
+._1header_text {
+    font-size: 12px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 31px 0;
+    margin: 34px 0 35px;
+}
+._1header_button{}
+/*Header One*/
+
+.service--main-eff-edd{
+    background: url(../../img/service-eff.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 80%;
+    margin-left: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.service--main-eff-edd:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid  #1b1919;
+    border-right: 1px solid #1b1919;
+}
+.service--main-eff-edd:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    border-left: 1px solid  #1b1919;
+    border-top: 1px solid  #1b1919;
+}
+.service-right-eff{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.service-right-eff:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background: rgba(85, 16, 16, 0.5);
+    transition: .3s ease-in-out;
+}
+.service-right-eff:before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 50%;
+    top: 0;
+    right: 0;
+    background: rgba(85, 16, 16, 0.5);
+    transition: .3s ease-in-out;
+}
+.service--main-eff-edd:hover .service-right-eff:after,
+.service--main-eff-edd:hover .service-right-eff:before{
+    width: 100%;
+}
+
+.service-left-area{
+    position: relative;
+    height: 100%;
+}
+.service-left-eff{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+._1header_text_xtra{
+    padding: 5px 0 !important;
+    border-bottom: none;
+    border-top: none;
+}

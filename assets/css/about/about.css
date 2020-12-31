@@ -1,0 +1,64 @@
+._1about ._1title:before {
+    transform: translateX(-0%);
+    left: 0;
+}
+._1about ._1title {
+    padding: 0 0 10px;
+    line-height: 41px;
+    font-size: 37px;
+}
+._1about:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background:#000;
+	opacity: .7;
+}
+._1about {
+    height: 100vh;
+    padding: 111px 0 35px;
+    overflow: hidden;
+    background-image: url(../../img/11.jpg);
+    background-repeat: no-repeat;
+    background-color: #030303;
+    background-position: top right;
+}
+._1about_title {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 0 12px;
+}
+._1about_status {
+    width: 501px;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 26px 0 45px;
+}
+._1about_details{}
+._1about_details_main {
+    align-items: center;
+    margin: 0 00 10px;
+}
+._1about_details_icon {
+    flex: 0 0 63px;
+    padding: 7px 0 0;
+}
+._1about_details_icon i {
+    font-size: 45px;
+}
+._1about_details_num {
+    font-size: 46px;
+    font-family: small;
+    letter-spacing: -3px;
+    flex: 0 0 88px;
+}
+._1about_details_text {
+    font-size: 10px;
+    line-height: 13px;
+}
+._1about_button {
+    margin: 38px 0 0;
+}
